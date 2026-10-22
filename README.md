@@ -8,7 +8,7 @@ Let \\(n\\) represent the number of events in the scheduler and \\(C\\) represen
 
 | Function                     | Time Complexity    | Space Complexity     |
 | ---------------------------- | ------------------ | -------------------- |
-| `LRUCache.get(key)`          | \\(O(1)\\) average | \\(O(1)\\) auxiliary |
+| `LRUCache.get(key)`          | \(O(1)\) average | \\(O(1)\\) auxiliary |
 | `LRUCache.put(key, value)`   | \\(O(1)\\) average | \\(O(1)\\) auxiliary |
 | `can_attend_all(events)`     | \\(O(n\log n)\\)   | \\(O(n)\\)           |
 | `min_rooms_required(events)` | \\(O(n\log n)\\)   | \\(O(n)\\)           |
