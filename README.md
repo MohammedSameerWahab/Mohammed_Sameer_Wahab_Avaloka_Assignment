@@ -10,8 +10,8 @@ Let \\(n\\) represent the number of events in the scheduler and \\(C\\) represen
 | ---------------------------- | ------------------ | -------------------- |
 | `LRUCache.get(key)`          | \(O(1)\) average | \(O(1)\) auxiliary |
 | `LRUCache.put(key, value)`   | \(O(1)\) average | \(O(1)\) auxiliary |
-| `can_attend_all(events)`     | \(O(n\log n)\)   | \(O(n)\)           |
-| `min_rooms_required(events)` | \(O(n\log n)\)   | \(O(n)\)           |
+| `can_attend_all(events)`     | \(O(nlog n)\)   | \(O(n)\)           |
+| `min_rooms_required(events)` | \(O(nlog n)\)   | \(O(n)\)           |
 
 LRU Cache: Both `get()` and `put()` operate in \\(O(1)\\) average time because the hash map provides constant-time average lookups, while the doubly linked list supports constant-time insertion, removal, and repositioning of nodes. Evicting the least recently used item also takes \\(O(1)\\) time because it is located at the end of the list. The cache requires \\(O(C)\\) total space to store at most \\(C\\) entries, although each individual operation uses \\(O(1)\\) auxiliary space.
 
