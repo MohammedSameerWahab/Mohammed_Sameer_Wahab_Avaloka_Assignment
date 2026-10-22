@@ -1,4 +1,14 @@
-# Mohammed_Sameer_Wahab_Avaloka_Assignment
+## Importance of LRU Cache and Event Scheduling Concepts for an AI / Multi-Agent Systems Intern
+
+1\. LRU Cache — Performance and Efficiency
+
+AI applications frequently reuse data, model responses, embeddings, and intermediate computation results. Caching avoids repeated expensive operations, reducing latency, API costs, and computational overhead. Understanding LRU caching helps you design efficient AI pipelines and agents that can reuse frequently accessed information while managing limited memory.
+
+2\. Event Scheduler — Coordination and Resource Management
+
+Multi-agent systems often involve multiple tasks, tool calls, API requests, and workflows that may execute concurrently or depend on one another. Scheduling concepts help manage execution timing, prevent resource conflicts, and allocate limited resources efficiently. These principles are relevant when coordinating agent workflows, managing concurrent jobs, and scheduling tasks across shared infrastructure.
+
+Overall: These problems build foundational software engineering skills that are essential for developing reliable, scalable AI systems. While they are not AI-specific algorithms, they teach you how to manage performance, memory, concurrency, and resources—the engineering principles that allow AI and multi-agent applications to work efficiently in real-world environments.
 
 ## Final Discussion & Analysis
 
